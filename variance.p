@@ -6,3 +6,5 @@ devn=df['numbers'] - mean #creating a column of deviations of each term with res
 sqDevn=devn ** 2          #calculating square deviation
 variance=sqDevn.mean()    #calculating variance by dividing summation of squared deviations by number of terms
 print(variance)
+var=df['numbers'].var(ddof=0) #builtin python function to calculate variance
+print(var)
