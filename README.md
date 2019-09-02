@@ -10,3 +10,5 @@
 * Avoiding local optima using simulated annealing : 
     * https://en.wikipedia.org/wiki/Simulated_annealing 
     * http://www.cs.cmu.edu/afs/cs.cmu.edu/project/learn-43/lib/photoz/.g/web/glossary/anneal.html
+* Parameter Estimation (Maximum Likelihood Estimation: 
+    * http://statweb.stanford.edu/~susan/courses/s200/lectures/lect11.pdf
