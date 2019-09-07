@@ -12,3 +12,5 @@
     * http://www.cs.cmu.edu/afs/cs.cmu.edu/project/learn-43/lib/photoz/.g/web/glossary/anneal.html
 * Parameter Estimation (Maximum Likelihood Estimation: 
     * http://statweb.stanford.edu/~susan/courses/s200/lectures/lect11.pdf
+* Decision Trees : 
+   * Regression Trees - Model Trees : https://towardsdatascience.com/introduction-to-model-trees-6e396259379a
