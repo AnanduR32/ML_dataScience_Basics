@@ -18,5 +18,7 @@
     * http://statweb.stanford.edu/~susan/courses/s200/lectures/lect11.pdf
 
 ### Decision Trees 
-* Regression Trees - Model Trees : https://towardsdatascience.com/introduction-to-model-trees-6e396259379a
-* Cross Validation (Very Important) : https://towardsdatascience.com/cross-validation-in-machine-learning-72924a69872f
+* Regression Trees - Model Trees : 
+      * https://towardsdatascience.com/introduction-to-model-trees-6e396259379a
+* Cross Validation (Very Important) : 
+      * https://towardsdatascience.com/cross-validation-in-machine-learning-72924a69872f
