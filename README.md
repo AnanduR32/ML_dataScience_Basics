@@ -22,3 +22,5 @@
     * https://towardsdatascience.com/introduction-to-model-trees-6e396259379a
 * Cross Validation (Very Important) : 
     * https://towardsdatascience.com/cross-validation-in-machine-learning-72924a69872f
+* Bagging and boosting :
+    * https://towardsdatascience.com/decision-tree-ensembles-bagging-and-boosting-266a8ba60fd9
