@@ -24,3 +24,7 @@
     * https://towardsdatascience.com/cross-validation-in-machine-learning-72924a69872f
 * Bagging and boosting :
     * https://towardsdatascience.com/decision-tree-ensembles-bagging-and-boosting-266a8ba60fd9
+
+### Evaluation/ Evaluation measures
+* Bootstrapping :
+    * https://towardsdatascience.com/an-introduction-to-the-bootstrap-method-58bcb51b4d60
