@@ -28,3 +28,5 @@
 ### Evaluation/ Evaluation measures
 * Bootstrapping :
     * https://towardsdatascience.com/an-introduction-to-the-bootstrap-method-58bcb51b4d60
+* Explaination to Accuracy, Recall, Precision, F-Score, Specificity and sensitivity : 
+    * https://towardsdatascience.com/accuracy-recall-precision-f-score-specificity-which-to-optimize-on-867d3f11124
