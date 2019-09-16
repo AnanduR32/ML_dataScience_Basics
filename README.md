@@ -24,6 +24,9 @@
     * https://towardsdatascience.com/cross-validation-in-machine-learning-72924a69872f
 * Bagging and boosting :
     * https://towardsdatascience.com/decision-tree-ensembles-bagging-and-boosting-266a8ba60fd9
+    *Boosting is a very powerful tool works really well with decision trees*
+    * Random Forests - 
+         * https://towardsdatascience.com/understanding-random-forest-58381e0602d2
 
 ### Evaluation/ Evaluation measures
 * Bootstrapping :
@@ -33,3 +36,4 @@
 * Supervised-Learning : Ranking :
     * https://medium.com/@nikhilbd/intuitive-explanation-of-learning-to-rank-and-ranknet-lambdarank-and-lambdamart-fe1e17fac418
     * https://towardsdatascience.com/learning-to-rank-with-python-scikit-learn-327a5cfd81f
+*
