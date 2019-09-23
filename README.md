@@ -5,6 +5,8 @@
 ### Basics
 * Regularization : 
     * https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a
+* Bayes Theorm :
+    * https://en.wikipedia.org/wiki/Bayes%27_theorem
 
 ### Neural Networks 
 * Optimal brain damage algorithm (CNN compression) : 
