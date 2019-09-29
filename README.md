@@ -39,4 +39,7 @@
 * Supervised-Learning : Ranking :
     * https://medium.com/@nikhilbd/intuitive-explanation-of-learning-to-rank-and-ranknet-lambdarank-and-lambdamart-fe1e17fac418
     * https://towardsdatascience.com/learning-to-rank-with-python-scikit-learn-327a5cfd81f
-*
+
+### Graphical Models 
+* Markov Blanket for directed and undirected graphs 
+    * https://library.bayesia.com/display/FAQ/Markov+Blankets
