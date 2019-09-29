@@ -41,5 +41,7 @@
     * https://towardsdatascience.com/learning-to-rank-with-python-scikit-learn-327a5cfd81f
 
 ### Graphical Models 
+* Basics 
+    * http://mlg.eng.cam.ac.uk/zoubin/talks/lect2gm.pdf
 * Markov Blanket for directed and undirected graphs 
     * https://library.bayesia.com/display/FAQ/Markov+Blankets
