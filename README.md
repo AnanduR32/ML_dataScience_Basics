@@ -47,3 +47,5 @@
     * https://library.bayesia.com/display/FAQ/Markov+Blankets
 * Hammersley–Clifford theorem
     * https://en.wikipedia.org/wiki/Hammersley%E2%80%93Clifford_theorem
+* Representation of Undirected Graphical Model     
+    * https://www.cs.cmu.edu/~epxing/Class/10708-17/notes-17/10708-scribe-lecture3.pdf
