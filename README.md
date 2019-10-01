@@ -1,4 +1,4 @@
-# Pandas dataScience Basics
+# ML dataScience Basics
 
 ## Important Architectures/Algorithms
 
