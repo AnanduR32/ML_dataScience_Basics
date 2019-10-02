@@ -48,6 +48,8 @@
         * Markov networks can be used to factorize dependencies through which we can remove unnecessary dependencies from an equation 
 * Hammersley–Clifford theorem
     * https://en.wikipedia.org/wiki/Hammersley%E2%80%93Clifford_theorem
+* Bayesian Networks :
+    * http://www.cs.ru.nl/~peterl/teaching/CI/bbn1-new4.pdf
 * Representation of Undirected Graphical Model     
     * https://www.cs.cmu.edu/~epxing/Class/10708-17/notes-17/10708-scribe-lecture3.pdf
 * Hidden Markov Model - useful in NLP context 
