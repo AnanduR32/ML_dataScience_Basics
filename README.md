@@ -45,6 +45,7 @@
     * http://mlg.eng.cam.ac.uk/zoubin/talks/lect2gm.pdf
 * Markov Blanket for directed and undirected graphs 
     * https://library.bayesia.com/display/FAQ/Markov+Blankets
+        * Markov networks can be used to factorize dependencies through which we can remove unnecessary dependencies from an equation 
 * Hammersley–Clifford theorem
     * https://en.wikipedia.org/wiki/Hammersley%E2%80%93Clifford_theorem
 * Representation of Undirected Graphical Model     
