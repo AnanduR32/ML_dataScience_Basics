@@ -42,7 +42,7 @@
 
 ### Graphical Models 
 * Basics 
-    * https://lili-mou.github.io/resource/MarkovNet.pdf *important - contains condensed content on everything 
+    * https://lili-mou.github.io/resource/MarkovNet.pdf *important - contains condensed content on everything*
     * http://mlg.eng.cam.ac.uk/zoubin/talks/lect2gm.pdf
 * Markov Blanket for directed and undirected graphs 
     * https://library.bayesia.com/display/FAQ/Markov+Blankets
