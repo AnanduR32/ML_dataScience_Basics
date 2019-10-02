@@ -49,3 +49,8 @@
     * https://en.wikipedia.org/wiki/Hammersley%E2%80%93Clifford_theorem
 * Representation of Undirected Graphical Model     
     * https://www.cs.cmu.edu/~epxing/Class/10708-17/notes-17/10708-scribe-lecture3.pdf
+* Hidden Markov Model - useful in NLP context 
+    * https://medium.com/@kangeugine/hidden-markov-model-7681c22f5b9
+    * https://medium.com/greyatom/learning-pos-tagging-chunking-in-nlp-85f7f811a8cb
+    * Chunking :
+        * https://nlpforhackers.io/text-chunking/
