@@ -58,3 +58,14 @@
     * https://medium.com/greyatom/learning-pos-tagging-chunking-in-nlp-85f7f811a8cb
     * Chunking :
         * https://nlpforhackers.io/text-chunking/
+
+### Clustering
+* https://towardsdatascience.com/clustering-on-mixed-type-data-8bbd0a2569c3
+##### Partitional
+* K-Means :
+    * http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html
+    * https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1
+* K-Medoids :
+    * https://www.geeksforgeeks.org/ml-k-medoids-clustering-with-example/
+##### Hierarchical  
+##### Density-Based
