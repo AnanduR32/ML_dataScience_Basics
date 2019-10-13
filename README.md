@@ -73,3 +73,4 @@
 ### Gaussian Mixture Models
 * https://scikit-learn.org/stable/modules/mixture.html
 * https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95
+* http://www.cse.iitm.ac.in/~vplab/courses/DVP/PDF/gmm.pdf
