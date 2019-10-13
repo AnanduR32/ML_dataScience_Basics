@@ -69,3 +69,7 @@
     * https://www.geeksforgeeks.org/ml-k-medoids-clustering-with-example/
 ##### Hierarchical  
 ##### Density-Based
+
+### Gaussian Mixture Models
+* https://scikit-learn.org/stable/modules/mixture.html
+* https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95
