@@ -74,3 +74,11 @@
 * https://scikit-learn.org/stable/modules/mixture.html
 * https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95
 * http://www.cse.iitm.ac.in/~vplab/courses/DVP/PDF/gmm.pdf
+
+### Image classification Models 
+* Image classification using Tensorflow
+    * https://medium.com/@tifa2up/image-classification-using-deep-neural-networks-a-beginner-friendly-approach-using-tensorflow-94b0a090ccd4
+* Image classification using Keras
+    * https://www.pyimagesearch.com/2017/12/11/image-classification-with-keras-and-deep-learning/
+* Machine Learning practice
+    * https://www.hackerearth.com/practice/machine-learning/machine-learning-algorithms/beginners-guide-regression-analysis-plot-interpretations/tutorial/
