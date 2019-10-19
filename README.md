@@ -1,5 +1,7 @@
 # ML dataScience Basics
-* Courses to learn Datascience : https://app.dataquest.io
+* Courses to learn Datascience :
+    * https://app.dataquest.io
+    * https://lambdaschool.com/courses/data-science
 
 ## Important Architectures/Algorithms
 
