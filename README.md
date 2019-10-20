@@ -84,6 +84,8 @@
 * Emperical Error Minimization :
     * https://towardsdatascience.com/learning-theory-empirical-risk-minimization-d3573f90ff77 
     * (Optional) https://towardsdatascience.com/what-is-empirical-risk-minimization-erm-ef9edc76b48
+* Vapnik - Chenrvenenkis Dimensions :
+    * https://towardsdatascience.com/measuring-the-power-of-a-classifier-c765a7446c1c
 ### Image classification Models 
 * Image classification using Tensorflow
     * https://medium.com/@tifa2up/image-classification-using-deep-neural-networks-a-beginner-friendly-approach-using-tensorflow-94b0a090ccd4
