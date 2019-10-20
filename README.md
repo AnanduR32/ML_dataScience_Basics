@@ -81,7 +81,9 @@
 ### Learning Theory 
 * Error Generalization 
     * https://medium.com/@yixinsun_56102/understanding-generalization-error-in-machine-learning-e6c03b203036
-
+* Emperical Error Minimization :
+    * https://towardsdatascience.com/learning-theory-empirical-risk-minimization-d3573f90ff77 
+    * (Optional) https://towardsdatascience.com/what-is-empirical-risk-minimization-erm-ef9edc76b48
 ### Image classification Models 
 * Image classification using Tensorflow
     * https://medium.com/@tifa2up/image-classification-using-deep-neural-networks-a-beginner-friendly-approach-using-tensorflow-94b0a090ccd4
