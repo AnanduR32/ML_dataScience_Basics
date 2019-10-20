@@ -78,6 +78,10 @@
 * https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95
 * http://www.cse.iitm.ac.in/~vplab/courses/DVP/PDF/gmm.pdf
 
+### Learning Theory 
+* Error Generalization 
+    * https://medium.com/@yixinsun_56102/understanding-generalization-error-in-machine-learning-e6c03b203036
+
 ### Image classification Models 
 * Image classification using Tensorflow
     * https://medium.com/@tifa2up/image-classification-using-deep-neural-networks-a-beginner-friendly-approach-using-tensorflow-94b0a090ccd4
