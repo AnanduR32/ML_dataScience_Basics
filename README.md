@@ -3,6 +3,11 @@
     * https://app.dataquest.io
     * https://lambdaschool.com/courses/data-science
 
+### Prerequisites :
+* https://www.khanacademy.org/math/linear-algebra
+* https://www.khanacademy.org/math/statistics-probability
+* https://www.khanacademy.org/math/ap-statistics
+
 ## Important Architectures/Algorithms
 
 ### Basics
