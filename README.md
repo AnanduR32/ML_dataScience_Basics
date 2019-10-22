@@ -83,6 +83,10 @@
 * https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95
 * http://www.cse.iitm.ac.in/~vplab/courses/DVP/PDF/gmm.pdf
 
+### Reinforcement learning
+* Temporal difference learning 
+    * https://medium.com/@violante.andre/simple-reinforcement-learning-temporal-difference-learning-e883ea0d65b0
+
 ### Learning Theory 
 * Error Generalization 
     * https://medium.com/@yixinsun_56102/understanding-generalization-error-in-machine-learning-e6c03b203036
