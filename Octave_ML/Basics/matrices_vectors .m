@@ -20,3 +20,12 @@ dim_v = size(v)
 
 % Now let's index into the 2nd row 3rd column of matrix A
 A_23 = A(2,3)
+
+% Transpose A 
+A_trans = A' 
+
+% Take the inverse of A 
+A_inv = inv(A)
+
+% A^(-1)*A gives corresponding identity matrix 
+A_invA = inv(A)*A
