@@ -11,7 +11,7 @@
 ## Important Architectures/Algorithms
 
 ### Basics
-* Feature Scaling :
+* Feature Scaling : (The contour analysis shows an extremely skewed figure in case the parameters are on varying scales, which causes convergence to be extremely slow and inefficient)
     * https://medium.com/greyatom/why-how-and-when-to-scale-your-features-4b30ab09db5e
 * Regularization : 
     * https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a
