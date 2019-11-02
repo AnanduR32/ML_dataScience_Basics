@@ -11,6 +11,8 @@
 ## Important Architectures/Algorithms
 
 ### Basics
+* Feature Scaling :
+    * https://medium.com/greyatom/why-how-and-when-to-scale-your-features-4b30ab09db5e
 * Regularization : 
     * https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a
 * Bayes Theorm :
