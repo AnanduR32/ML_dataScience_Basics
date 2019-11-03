@@ -17,6 +17,8 @@
     * https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a
 * Bayes Theorm :
     * https://en.wikipedia.org/wiki/Bayes%27_theorem
+* Decision Matrix : 
+    * http://web.iitd.ac.in/~sumeet/mlintro_doc.pdf
 
 ### Neural Networks 
 * Optimal brain damage algorithm (CNN compression) : 
