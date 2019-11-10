@@ -45,14 +45,14 @@ Matrix C = [1;2;3] is a column matrix
       ````
        [r,c] = length(A);
       ````
-* Length()
+* length()
     * Function used to find the length of the matrix/vector 
     * It returns the number of rows in the matrix/vector
     * Usage :
       ````
       len = length(A);
       ````
-* Length()
+* max()
     * Function used to find max values in each column 
     * It returns the a 1xn matrix with the maximum value in each column as it data elements
     * Usage :
