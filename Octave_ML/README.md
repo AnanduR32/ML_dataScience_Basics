@@ -22,13 +22,8 @@
   M = magic(x) % where x specifies the number of rows and columns
   ````
   
-### Length()
-* Function used to find the length of the matrix/vector 
-* Returns a 1x2 matrix with number of rows and number of columns as its elements 
-* Usage :
-  ````
-  [r,c] = length(A);
-  ````
+### 
+  
   
 ### Appending matrices
 ````
@@ -41,3 +36,39 @@ Matrix C = [1;2;3] is a column matrix
 #### NOTE 
 * Initializing variables with semicolon prevents the variable to be output upon being initialized, We can later use the variable itself or function disp() to display the variable output
 * We can use function zeros() and ones() to initialize a matrix with one or zeros respectively, the dimenstions of the matrices required are specified within the parenthesis as (row_,column_)
+
+### Functions
+* size() : 
+    * The size function is used to find the dimensions of a matrix
+    * Returns a 1x2 matrix with number of rows and number of columns as its elements 
+    * Usage :
+      ````
+       [r,c] = length(A);
+      ````
+* Length()
+    * Function used to find the length of the matrix/vector 
+    * It returns the number of rows in the matrix/vector
+    * Usage :
+      ````
+      len = length(A);
+      ````
+* Length()
+    * Function used to find max values in each column 
+    * It returns the a 1xn matrix with the maximum value in each column as it data elements
+    * Usage :
+      ````
+      m = max(A);
+      ````
+    * Alternate usage :
+      ````
+      m = max(A,[],1) --> Default usage as given above
+      
+      m = max(A,[],2) --> To find the maximum value in each row and display it as a nx1 matrix
+      ````
+* plot()
+    * To make a plot between two vectors 
+    * usage : 
+      ````
+      plot(amplitude,frequecy) --> plotting amplitude against frequency curve for a wave
+      ````
+      
