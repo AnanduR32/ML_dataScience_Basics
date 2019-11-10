@@ -30,10 +30,14 @@
   [r,c] = length(A);
   ````
   
-### Appedning matrices
+### Appending matrices
 ````
 Matrix A = [1,2,3;4,5,6;7,8,9] is a 3x3 matrix
 Matrix B = [1,2,3] is a row matrix
 Matrix C = [1;2;3] is a column matrix 
 ````
 * Then, we can form a matrix [A;B] or [A,C] but not [A;C] and [A,B] becasue of row mismatch and column mismatch respectively 
+
+#### NOTE 
+* Initializing variables with semicolon prevents the variable to be output upon being initialized, We can later use the variable itself or function disp() to display the variable output
+* We can use function zeros() and ones() to initialize a matrix with one or zeros respectively, the dimenstions of the matrices required are specified within the parenthesis as (row_,column_)
