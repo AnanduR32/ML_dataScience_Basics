@@ -11,10 +11,14 @@
 ## Important Architectures/Algorithms
 
 ### Basics
+* Feature Scaling : (The contour analysis shows an extremely skewed figure in case the parameters are on varying scales, which causes convergence to be extremely slow and inefficient)
+    * https://medium.com/greyatom/why-how-and-when-to-scale-your-features-4b30ab09db5e
 * Regularization : 
     * https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a
 * Bayes Theorm :
     * https://en.wikipedia.org/wiki/Bayes%27_theorem
+* Decision Matrix : 
+    * http://web.iitd.ac.in/~sumeet/mlintro_doc.pdf
 
 ### Neural Networks 
 * Optimal brain damage algorithm (CNN compression) : 
