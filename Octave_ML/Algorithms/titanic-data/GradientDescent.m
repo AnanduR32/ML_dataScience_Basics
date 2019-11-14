@@ -1,4 +1,4 @@
-function [theta,J] = GradientDescentLog(X,y,alpha,theta)
+function [theta,J] = GradientDescent(X,y,alpha,theta)
   m=size(X,1);
   z=zeros(m,1);
   for i=1:1000,
@@ -13,7 +13,7 @@ function [theta,J] = GradientDescentLog(X,y,alpha,theta)
     Delta=Error'*X;
     Delta=Delta*(1/m);
     theta=theta-alpha*Delta';
-    J=computeCostLog(X,y,theta);
+    %J=computeCostLog(X,y,theta);
   end;
 endfunction
 
