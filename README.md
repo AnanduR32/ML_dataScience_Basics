@@ -15,6 +15,8 @@
     * https://medium.com/greyatom/why-how-and-when-to-scale-your-features-4b30ab09db5e
 * Regularization : 
     * https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a
+* Intuition behind gradient descent :
+    * https://towardsdatascience.com/machine-learning-bit-by-bit-multivariate-gradient-descent-e198fdd0df85
 * Bayes Theorm :
     * https://en.wikipedia.org/wiki/Bayes%27_theorem
 * Decision Matrix : 
