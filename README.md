@@ -21,7 +21,11 @@
     * https://en.wikipedia.org/wiki/Bayes%27_theorem
 * Decision Matrix : 
     * http://web.iitd.ac.in/~sumeet/mlintro_doc.pdf
-
+    
+### Logistic regression 
+* Line Search algorithm - *To create efficient classification models like "Conjugate gradient", "BFGS", and "L-BFGS" ...
+    * https://www.ii.uib.no/~lennart/drgrad/More1994.pdf
+    
 ### Neural Networks 
 * Optimal brain damage algorithm (CNN compression) : 
     * http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf
