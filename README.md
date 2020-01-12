@@ -26,7 +26,10 @@
 * Line Search algorithm - *To create efficient classification models like "Conjugate gradient", "BFGS", and "L-BFGS" ...
     * https://www.ii.uib.no/~lennart/drgrad/More1994.pdf
     
-### Neural Networks 
+### Neural Networks
+* Derivation of backpropagation Algorithm (Hardest math in ML):
+    * https://medium.com/binaryandmore/beginners-guide-to-deriving-and-implementing-backpropagation-e3c1a5a1e536
+    * https://sudeepraja.github.io/Neural/
 * Optimal brain damage algorithm (CNN compression) : 
     * http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf
 * Cascade correlation (network) learning architecture : 
