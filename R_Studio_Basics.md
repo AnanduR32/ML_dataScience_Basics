@@ -57,3 +57,13 @@
             as.logical(binary_array)
 * Basic Objects in R
     * Vector, List, Dataframe 
+    * Vector : an ordered collection of basic data types of given length
+        * All the elements of a vector must be of same data type
+        * eg : 
+            ````
+            X = c(2.3,2.6,3.5)
+    * List : a generic object consisting of an ordered collection of objects
+        * A list could consist of a numeric vector, a logical value, a matrix, a complex vector, a character array, a function, and so on
+        * eg : 
+            ````
+            
