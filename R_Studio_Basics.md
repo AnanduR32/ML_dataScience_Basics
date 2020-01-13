@@ -65,5 +65,27 @@
     * List : a generic object consisting of an ordered collection of objects
         * A list could consist of a numeric vector, a logical value, a matrix, a complex vector, a character array, a function, and so on
         * eg : 
+            If
+            ````
+            ID = c(1,2,3,4)
+            emp.name = c("Arun","Anil","Adil","Amar")
+            num.emp = 4
+            ````
+            Then we can make a list of objects ID, emp.name and num.emp using the list() function as 
+            ````
+            emp.list = list(ID, emp.name, num.emp)
+            print(emp.list) 
+            
+            ````
+            Output : 
+            ````
+            [[1]]
+            [1] 1 2 3 4
+            
+            [[2]]
+            [1] "Arun" "Anil" "Adil" "Amar"
+            
+            [[3]]
+            [1] 4 
             ````
             
