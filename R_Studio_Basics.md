@@ -46,8 +46,14 @@
     * To find datatype of a variable :
         * typeof(variable)
     * To verify is variable is of certain datatype
-        * is.datatype(object) eg: is.integer(array_of_numbers)
+        * is.datatype(object) 
+            eg: 
+            ```` 
+             is.integer(array_of_numbers)
     * To convert datatype to/as a specified one 
-        * as.datatype(object) eg: as.logical(binary_array)
+        * as.datatype(object) 
+            eg: 
+            ```` 
+            as.logical(binary_array)
 * Basic Objects in R
     * Vector, List, Dataframe 
