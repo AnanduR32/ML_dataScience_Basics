@@ -7,7 +7,6 @@
 * executing an R program : 
     `````
     source("</PATH TO FILE.R/>",echo = TRUE)
-    
 * Commenting multiple lines ( comment symbol - '#')
     ````
     ctrl + shift + C
@@ -88,4 +87,23 @@
             [[3]]
             [1] 4 
             ````
-            
+        * Accessing Elements of a list 
+            List item by specifying it within [[item]] and followed by a [instance] to access a list items' instance
+            eg :
+            ````
+                print(emp.list[[1]][1])      
+            ````
+            output : 
+            ````            
+                1
+            ````
+        * Manipulating components 
+            It can be done by simply accessing the component and modifying their values 
+        * Concatenation of lists 
+            ````
+            emp.ages = list("ages" = c(24,23,12,54))
+            emp.list = list(emp.list,emp.ages)
+            ````
+        
+          
+   
