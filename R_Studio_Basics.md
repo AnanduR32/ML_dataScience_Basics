@@ -97,13 +97,44 @@
             ````            
                 1
             ````
-        * Manipulating components 
-            It can be done by simply accessing the component and modifying their values 
+        * Manipulating components can be done by simply accessing the component and modifying their values 
         * Concatenation of lists 
             ````
             emp.ages = list("ages" = c(24,23,12,54))
             emp.list = list(emp.list,emp.ages)
             ````
-        
+    * Dataframes 
+        * Data frames are generic data objects of R, used to store tabular data
+        * Syntax : 
+            ````
+            df = data.frame(vec1,vec2,vec3)
+            ````
+        * Reading dataframes from file 
+            ````
+            newDF = read.table(path=“Path of the file”)
+            ````
+        * Accessing rows/columns 
+            * To access first two rows
+            ````
+            df[1:2,] 
+            ````
+            * To access first two columns 
+            ````
+            df[,1:2] or df[1:2]
+            ````
+        * Editing dataframes 
+            * Method 1 : Similar to how lists are edited using [[]] to represent item and [] for that items' instance 
+            * Using the edit() function 
+            * To add rows, use 
+              ````
+              rbind(dataframe1, dataframe2) 
+              ````
+              here dataframe2 represents as many vectors as there are columns in dataframe1 
+            * To add columns, use
+              ```` 
+              cbind(dataframe1, dataframe2)
+              ````
+              here dataframe2 has complete vector(s) with as many elements as there are rows in dataframe1
+            
           
    
