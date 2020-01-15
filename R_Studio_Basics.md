@@ -135,6 +135,19 @@
               cbind(dataframe1, dataframe2)
               ````
               here dataframe2 has complete vector(s) with as many elements as there are rows in dataframe1
+            * Deletion
+              * Unconditional delete - specified selecting the row/column to be deleted a specifying '-' before their index value 
+                ````
+                df2 = df1[-3,-1] 
+                ````
+              here, the row 3 and column 1 will be removed from df1 and result stored in df2
+              * conditional delete - selecting only necessary components of a dataframe and storing it
+                ````
+                df2 = df1[ , !names(df) %in% c("vec3")] 
+                ````
+                stores all columns(vectors) in df1 to df2 unless the column name is "vec3"
+              * When manipulating string fields in a dataframes factoring problem can occur to avoid it set 'stringsAsFactors = F' during dataframe creation, as a parameter within the data.frame() function 
+              
             
           
    
