@@ -7,7 +7,7 @@
 * executing an R program : 
     `````
     source("</PATH TO FILE.R/>",echo = TRUE)
-    ````
+    
 * Commenting multiple lines ( comment symbol - '#')
     ````
     ctrl + shift + C
