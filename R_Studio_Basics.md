@@ -147,6 +147,21 @@
                 ````
                 stores all columns(vectors) in df1 to df2 unless the column name is "vec3"
               * When manipulating string fields in a dataframes factoring problem can occur to avoid it set 'stringsAsFactors = F' during dataframe creation, as a parameter within the data.frame() function 
+            * Recasting 
+                * Melt : 
+                ````
+                    Df = melt(pd, id.vars = c(“Name“,”Month”),measure.vars = c(“BS", “BP"))
+                ````
+                * Cast : 
+                ````
+                    Df2 = dcast(Df,variable+month ~ Name,value.var=“value“)
+                ````
+                * Single-Step recasting :
+                ````
+                    Df2 = recast(Df,variable+month ~ name,id.var = c("Name","Month"))
+                ````
+                    
+               
               
             
           
