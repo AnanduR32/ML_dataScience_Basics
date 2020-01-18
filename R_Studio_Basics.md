@@ -160,9 +160,59 @@
                 ````
                     Df2 = recast(Df,variable+month ~ name,id.var = c("Name","Month"))
                 ````
+            * Adding new variable to dataframe based on existing ones :
+                * import library :
+                ````
+                    library(dplyr)
+                ````
+                * performing mutate function to transform variable 
+                ````
+                    pd2 <- mutate(pd, log_BP = log(BP))
+                ````
+            * Joining/Combining two dataframes :
+                * Syntax : 
+                ````
+                    function(dataframe1, dataframe2, by = id.variable)
+                ````
+                * The following functions can be used to join two dataframes : 
+                    * left_join()
+                    * right_join()
+                    * full_join()
+                    * semi_join()
+                    * inner_join()
+                    * anti_join()
+        * Arithematic and logical operators in R
+        * Matrix : 
+            * creation : 
+            ````
+                A = matrix() 
+            ````
+            The elements can be a sequence of numbers specified as one of the parameters 
+            * nrow and ncol parameters are used to specify the dimensions of the matrix nrow x ncol
+            * byrow boolean parameter specifies whether the values in the vector would be assigned "by row" or not
+            * Creating special matrices :
+                * Matrix where all rows and columns are filled by a single constant ‘k’. <br />
+                    For k=3, with ‘m’ rows & ‘n’ columns <br />
+                    Command:
+                    ````
+                        matrix(3,m,n)
+                * Diagonal matrix: <br />
+                    Values in diagonal,Mention ‘k’ as constant/array in first parameter. <br />
+                    Command: 
+                    ````
+                        diag(k,m,n)
+                * Identity matrix: <br />
+                    Use ‘diag()’ command with k=1
+            * Matrix metrics: 
+                * dim(A) <br />
+                    Finding the dimension of the matrix A
+                * nrow(A) <br />
+                    Finding the number of rows in matrix A
+                * ncol(A) <br />
+                    Finding the number of columns in matrix A
+                * length(A) or prod(dim(A)) <br />
+                    Returns the number of elements in the matrix A
                     
-               
-              
             
           
    
