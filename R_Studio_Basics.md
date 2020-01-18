@@ -181,38 +181,87 @@
                     * semi_join()
                     * inner_join()
                     * anti_join()
-        * Arithematic and logical operators in R
-        * Matrix : 
-            * creation : 
+    * Arithematic and logical operators in R
+    * Matrix : 
+        * creation : 
+        ````
+            A = matrix() 
+        ````
+        The elements can be a sequence of numbers specified as one of the parameters 
+        * nrow and ncol parameters are used to specify the dimensions of the matrix nrow x ncol
+        * byrow boolean parameter specifies whether the values in the vector would be assigned "by row" or not
+        * Creating special matrices :
+            * Matrix where all rows and columns are filled by a single constant ‘k’. <br />
+                For k=3, with ‘m’ rows & ‘n’ columns <br />
+                Command:
+                ````
+                    matrix(3,m,n)
+            * Diagonal matrix: <br />
+                Values in diagonal,Mention ‘k’ as constant/array in first parameter. <br />
+                Command: 
+                ````
+                    diag(k,m,n)
+            * Identity matrix: <br />
+                Use ‘diag()’ command with k=1
+        * Matrix metrics: 
+            * dim(A) <br />
+                Finding the dimension of the matrix A
+            * nrow(A) <br />
+                Finding the number of rows in matrix A
+            * ncol(A) <br />
+                Finding the number of columns in matrix A
+            * length(A) or prod(dim(A)) <br />
+                Returns the number of elements in the matrix A
+        * Accessing, editing, deleting in elements in matrices
+            * Accessing an entry:
+                ````
+                    A[m,n]
+                ````
+                where m,n specify row and column
+                * If m or n isn't specified then the column vector transpose or row vector respectively are output 
+                * '-' sign before m or n signifies omittion of that particular row and/or column in output
+            * ':' colon operator can be used to create a sequence of charactors - a sequence vector <br />
+                which can be used to specify a range of row and column values for m and n used to extract submatrices
+        * Matrix concatenation: <br />
+            Concatenation of rows can be done using rbind() and that of columns using cbind()
+        * Matrix algebra : <br />
+            Given A and B are two square matrices of order 3x3
+            * addition:
             ````
-                A = matrix() 
+                A+B
             ````
-            The elements can be a sequence of numbers specified as one of the parameters 
-            * nrow and ncol parameters are used to specify the dimensions of the matrix nrow x ncol
-            * byrow boolean parameter specifies whether the values in the vector would be assigned "by row" or not
-            * Creating special matrices :
-                * Matrix where all rows and columns are filled by a single constant ‘k’. <br />
-                    For k=3, with ‘m’ rows & ‘n’ columns <br />
-                    Command:
-                    ````
-                        matrix(3,m,n)
-                * Diagonal matrix: <br />
-                    Values in diagonal,Mention ‘k’ as constant/array in first parameter. <br />
-                    Command: 
-                    ````
-                        diag(k,m,n)
-                * Identity matrix: <br />
-                    Use ‘diag()’ command with k=1
-            * Matrix metrics: 
-                * dim(A) <br />
-                    Finding the dimension of the matrix A
-                * nrow(A) <br />
-                    Finding the number of rows in matrix A
-                * ncol(A) <br />
-                    Finding the number of columns in matrix A
-                * length(A) or prod(dim(A)) <br />
-                    Returns the number of elements in the matrix A
-                    
+            * Subtraction 
+            ````
+                A-B
+            ````
+            * Regular matrix multiplication 
+            ````
+                A%*%B
+            ````
+            * Element-wise matrix muliplication
+            ````
+                A*B
+            ````
+            * Element-wise matrix division 
+            ````
+                A/B
+            ````
+    * Functions:<br />
+        * Syntax: <br />
+            f = function(arguments){
+                statements`
+            }
+        * Loading functions: <br />
+            source('path/to/function.R')
+        * Lazy evaluation of functions in R: <br/>
+            Functions are lazily evaluated, which means that if some arguments are missing, the function is still executed as long as the execution doesn’t involve these arguments.
+        * Multiple Input Multiple Output(MIMO) functions:
+            Functions in R take multiple input objects but returns only one object as output.<br/>
+            This however is not a limitation, because a list object (collection of several objects) can be returned by function
+        * Looping of functions over an object:
+        
+            
+           
             
           
    
