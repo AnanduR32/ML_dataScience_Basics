@@ -246,19 +246,61 @@
             ````
                 A/B
             ````
-    * Functions:<br />
-        * Syntax: <br />
-            f = function(arguments){
-                statements`
-            }
-        * Loading functions: <br />
-            source('path/to/function.R')
-        * Lazy evaluation of functions in R: <br/>
-            Functions are lazily evaluated, which means that if some arguments are missing, the function is still executed as long as the execution doesn’t involve these arguments.
-        * Multiple Input Multiple Output(MIMO) functions:
-            Functions in R take multiple input objects but returns only one object as output.<br/>
-            This however is not a limitation, because a list object (collection of several objects) can be returned by function
-        * Looping of functions over an object:
+        * Functions:<br />
+            * Syntax: <br />
+                f = function(arguments){
+                    statements`
+                }
+            * Loading functions: <br />
+                source('path/to/function.R')
+            * Lazy evaluation of functions in R: <br/>
+                Functions are lazily evaluated, which means that if some arguments are missing, the function is still executed as long as the execution doesn’t involve these arguments.
+            * Multiple Input Multiple Output(MIMO) functions:
+                Functions in R take multiple input objects but returns only one object as output.<br/>
+                This however is not a limitation, because a list object (collection of several objects) can be returned by function
+            * Looping of functions over an object:
+                * apply <br />
+                    Applies a given function over the margins of a given array. <br />
+                    Syntax:
+                    ````
+                        apply(array, margins, function,...)
+                * lappy <br />
+                    lapply is used to apply a function over a list. <br />
+                    lapply always returns a list of the same length as the input list. <br />
+                    Syntax: 
+                    ````
+                        lapply(list, function, ...)
+                * mapply <br />
+                    mapply is a multivariate version of lapply. <br />
+                    A function can be applied over several lists simultaneously. <br />
+                    Syntax: 
+                    ````
+                        mapply(fun, list1, list2, ...)
+                * tapply <br />
+                    tapply is used to apply a function over subset of vectors given by a combination of factors. <br />
+                    Syntax: 
+                    ````
+                        tapply(vector, factors, function, ...)
+    * Control functions: 
+        * If , If else and If-elseif - else are a family of constructs where: <br />
+            A condition is first checked, if it is satisfied then operations are performed <br />
+            If condition is not satisfied, code exits construct or moves on to other options
+        * Sequence function: <br />
+            A sequence is one of the components of a ‘for loop’ <br />
+            syntax : 
+            ````
+                seq(from, to, by, length)
+            ````
+            Creates equi-spaced points between ‘from’ and ‘to’
+        * for loop, Nested for Loops <br />
+            * The structure of a for loop construct comprises: 
+                A ‘sequence’ which could be a vector or a list <br />
+                ‘iter’ is an element of the sequence Statements
+            * Nested for-loop : one or more for loop constructs are located within another.
+            * break; statement: <br />
+                A “break” statement once executed, program exits the loop even before iterations are complete “break” command comes out of the innermost loop for nested loops.
+        * while loop  <br />
+            A while loop is used whenever you want to execute statements until a specific condition is violated
         
             
            
