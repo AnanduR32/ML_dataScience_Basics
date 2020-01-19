@@ -314,15 +314,18 @@
         plot(X,Y,type = ‘l’)
     ````
     type l plots a line connecting all the points 
-    * Bar plot:
-    ````
-        Syntax:
-           barplot(H, names.arg, xlab, ylab, main, names.arg, col)
+    * Bar plot: <br />
+        syntax:
+    
+        ````
+            barplot(H, names.arg, xlab, ylab, main, names.arg, col)
+        ````
         R – code :
+        ````
             H <- c(7,12,28,3,41)
             M <- c("Mar","Apr","May","Jun","Jul")
             barplot(H,names.arg = M, xlab = "Month", ylab = "Revenue", col = "blue", main = "Revenue chart",border = "red")
-    ````
+        ````
         
             
            
