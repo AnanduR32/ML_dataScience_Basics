@@ -281,27 +281,27 @@
                     Syntax: 
                     ````
                         tapply(vector, factors, function, ...)
-    * Control functions: 
-        * If , If else and If-elseif - else are a family of constructs where: <br />
-            A condition is first checked, if it is satisfied then operations are performed <br />
-            If condition is not satisfied, code exits construct or moves on to other options
-        * Sequence function: <br />
-            A sequence is one of the components of a ‘for loop’ <br />
-            syntax : 
-            ````
-                seq(from, to, by, length)
-            ````
-            Creates equi-spaced points between ‘from’ and ‘to’
-        * for loop, Nested for Loops <br />
-            * The structure of a for loop construct comprises: 
-                A ‘sequence’ which could be a vector or a list <br />
-                ‘iter’ is an element of the sequence Statements
-            * Nested for-loop : one or more for loop constructs are located within another.
-            * break; statement: <br />
-                A “break” statement once executed, program exits the loop even before iterations are complete “break” command comes out of the innermost loop for nested loops.
-        * while loop  <br />
-            A while loop is used whenever you want to execute statements until a specific condition is violated
-        
+* Control functions: 
+    * If , If else and If-elseif - else are a family of constructs where: <br />
+        A condition is first checked, if it is satisfied then operations are performed <br />
+        If condition is not satisfied, code exits construct or moves on to other options
+    * Sequence function: <br />
+        A sequence is one of the components of a ‘for loop’ <br />
+        syntax : 
+        ````
+            seq(from, to, by, length)
+        ````
+        Creates equi-spaced points between ‘from’ and ‘to’
+    * for loop, Nested for Loops <br />
+        * The structure of a for loop construct comprises: 
+            A ‘sequence’ which could be a vector or a list <br />
+            ‘iter’ is an element of the sequence Statements
+        * Nested for-loop : one or more for loop constructs are located within another.
+        * break; statement: <br />
+            A “break” statement once executed, program exits the loop even before iterations are complete “break” command comes out of the innermost loop for nested loops.
+    * while loop  <br />
+        A while loop is used whenever you want to execute statements until a specific condition is violated
+* Data visualization in R  
             
            
             
