@@ -301,7 +301,29 @@
             A “break” statement once executed, program exits the loop even before iterations are complete “break” command comes out of the innermost loop for nested loops.
     * while loop  <br />
         A while loop is used whenever you want to execute statements until a specific condition is violated
-* Data visualization in R  
+* Data visualization in R  <br />
+    X = 1:10 <br />
+    Y= X^2 
+    * Scatter-plot:
+    ````
+        plot(dataframe$attribute1, dataframe$attribute2, main="Title of graph", xlab="x-axis", ylab="y-axis", pch= )
+    ````
+    pch specifies various shapes of the points 
+    * Line plot:
+    ````
+        plot(X,Y,type = ‘l’)
+    ````
+    type l plots a line connecting all the points 
+    * Bar plot:
+    ````
+        Syntax:
+           barplot(H, names.arg, xlab, ylab, main, names.arg, col)
+        R – code :
+            H <- c(7,12,28,3,41)
+            M <- c("Mar","Apr","May","Jun","Jul")
+            barplot(H,names.arg = M, xlab = "Month", ylab = "Revenue", col = "blue", main = "Revenue chart",border = "red")
+    ````
+        
             
            
             
